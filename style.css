@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.wrapper {
+  width: 100%;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+.navbar {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 183px;
+  height: 62px;
+}
+.navbar__ul {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+.navbar__link {
+  color: #302929;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 16px */
+  text-decoration: none;
+}
+.navbar__link:hover {
+  color: #b0cc0d;
+  transition: 0.2s;
+  text-decoration: underline;
+}
+.navbar__left {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+/* -------------- */
+.navbar__right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.telephone {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.button {
+  display: flex;
+  width: 140px;
+  height: 35px;
+  padding: 3px 47px 3px 17px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-radius: 32px;
+  background: #ffa800;
+}
+.button:hover {
+  background: #ba8d32;
+}
+.button:active {
+  opacity: 0.6;
+}
+.sign {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 19.2px */
+  text-transform: uppercase;
+}
+.number {
+  color: #302929;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 16px */
+}
+.number:hover {
+  color: #b0cc0d;
+}
+/* ----------------------------------- */
+.cook {
+  padding-top: 54px;
+  padding-left: 102px;
+  width: 92%;
+  height: 450px;
+  border-radius: 55px;
+  background: #b0cc0d;
+  position: relative;
+  margin: 0 auto;
+  z-index: -1;
+}
+.kitchen__title {
+  width: 400px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 65px */
+  text-transform: uppercase;
+}
+.kitchen__text {
+  margin-top: 20px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 59px; /* 236% */
+}
+.header__btn {
+  margin-top: 20px;
+  margin-bottom: 47px;
+  padding: 18px 27px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 32px;
+  background: #ffa800;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 19.2px */
+  border: none;
+}
+.header__btn:hover {
+  background: #b88c35;
+}
+.header__btn:active {
+  opacity: 0.6;
+}
+.food {
+  width: 866px;
+  height: 577px;
+  position: absolute;
+  left: 400px;
+  top: 30px;
+  z-index: 1;
+}
+.chiziq {
+  position: absolute;
+   width: 590px;
+  top: 50px;
+  right: 87px;
+  z-index: -1;
+}
+.past__barg{
+    position: absolute;
+    left: -95px;
+    bottom: -147px;
+}
+.tepa__barg{
+    position: absolute;
+    top: -120px;
+    left: 390px;
+}
+.barg{
+    position: absolute;
+    left: 470px;
+    bottom: -70px;
+}
+.no_xat{
+    position: absolute;
+    right: -100px;
+    bottom: -145px;
+}
